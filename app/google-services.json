@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788293617924",
+    "firebase_url": "https://stockify-dbff4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "stockify-dbff4",
+    "storage_bucket": "stockify-dbff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788293617924:android:edc690fb22cb4b2667e851",
+        "android_client_info": {
+          "package_name": "com.example.stockify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788293617924-357uab5lo8oakv0rmgakggftfog8ips2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPqkuR0BPI0K11pppHPmRc8Jv3VqQv7DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788293617924-357uab5lo8oakv0rmgakggftfog8ips2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
