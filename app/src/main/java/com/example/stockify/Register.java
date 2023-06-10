@@ -77,22 +77,27 @@ public class Register extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(em)){
                     Toast.makeText(Register.this, "Enter Email", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
                 if (TextUtils.isEmpty(ps)){
                     Toast.makeText(Register.this, "Enter Password", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
                 if(TextUtils.isEmpty(nm)){
                     Toast.makeText(Register.this, "Enter Name", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
                 if (TextUtils.isEmpty(cps)){
                     Toast.makeText(Register.this, "Enter Confirm Password", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
                 if(!TextUtils.equals(ps,cps)){
                     Toast.makeText(Register.this, "Passwords Don't match", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
 

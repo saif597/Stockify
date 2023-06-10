@@ -94,11 +94,13 @@ public class Login extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(em)){
                     Toast.makeText(Login.this, "Enter Email", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
 
                 if (TextUtils.isEmpty(ps)){
                     Toast.makeText(Login.this, "Enter Password", Toast.LENGTH_SHORT).show();
+                    setSpinnerVisible(false);
                     return;
                 }
                 firebaseAuth.signInWithEmailAndPassword(em,ps).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

@@ -209,6 +209,10 @@ public class AddProduct extends AppCompatActivity {
                     Toast.makeText(AddProduct.this, "Enter Product Description", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (selectedImageUri==null ){
+                    Toast.makeText(AddProduct.this, "select an image please", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 else if (TextUtils.isEmpty(pQuantity.getText().toString())){
                     Toast.makeText(AddProduct.this, "Enter Product Quantity", Toast.LENGTH_SHORT).show();
                     return;
